@@ -1,0 +1,20 @@
+{
+  "name": "practice1",
+  "version": "1.0.0",
+  "description": "### Weather app has following features * It shows 5 day weather forecast data for location entered by user. * It shows information such as day,date,temprature,humidity,pressure etc. * It also shows image describing the weather. * It also provides option to view information in metric or imperial units.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "http-server": "^0.9.0"
+  }
+}
